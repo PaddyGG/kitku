@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+/*header section*/
+
+.logo{
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+}
+.header{
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 18px;
+    color: #E5E7EB;
+    background-color: #1F2937;
+}
+.spans{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+/* 1st section*/
+
+.section1{
+    padding-top:100px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    background-color: #1F2937;
+    justify-content: space-between;
+}
+.sign-up{
+    background-color: #3882F6;
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    color: #f9faf8;
+}
+.kitku{
+    height: 300px;
+    width: 400px;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.catlover{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 800;
+}
+.subtext{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+/* 2nd section */
+
+.title2{
+    display: flex;
+    justify-content: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    padding: 20px;
+}
+.img{
+    height:300px;
+    width: 300px;
+}
+ .rasa{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    max-width: 300px;
+    margin: 50px;
+ }
+ .rasy{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ /* 3rd section */
+.section3 {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    height: 200px;
+    align-items: center;
+}
+.quote{
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f1f1f;
+    margin: 50px;
+    text-align: left;
+
+}
+.name{
+    font-weight: bold;
+    align-self: end;
+}
+
+
+/*4th section*/
+
+.section4{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+.action{
+    border-radius: 25px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #3882F6;
+    color: #f9faf8;
+}
+.call{
+    font-size: 23px;
+    font-weight: 900;
+}
+.bottom{
+    border: 2px solid  #f9faf8;
+}
+
+/**/
+.footer{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+    font-weight: light;
+}
